@@ -40,6 +40,8 @@ console.log(hp);
 // Skriv i oppgavearket hva feilmeldingen betyr, og fjern linja igjen.
 // Forventet: TypeError: Assignment to constant variable.
 
+const PI = 3.14159;
+
 
 // Oppgave 4 (middels)
 // Et spill på Steam koster 200 kr før moms. Lag const MOMS = 0.25 og let pris = 200.
