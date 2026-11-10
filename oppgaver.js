@@ -138,6 +138,16 @@ if (temp < 0) {
 // Forventet: God kveld
 // Test også: endre klokka til 8 og kjør på nytt. Da skal det stå God morgen.
 
+const klokka = 21;
+
+if (klokka < 10) {
+    console.log("God morgen");
+} else if (klokka < 18) {
+    console.log("God dag");
+} else {
+    console.log("God kveld");
+}
+
 
 // Oppgave 13 (middels)
 // Det er gode sjanser for nordlys når skydekket er under 30 OG klokka er 18 eller mer.
