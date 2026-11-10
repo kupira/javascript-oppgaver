@@ -94,6 +94,10 @@ console.log(`${firstname} har ${hp} hp`);
 //            55
 //            10
 
+console.log(5 + 5);
+console.log("5" + 5);
+console.log(Number("5") + 5);
+
 
 // Oppgave 9 (middels)
 // 17 elever skal deles i lag på 4. Bruk / og % .
