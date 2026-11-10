@@ -30,6 +30,10 @@ console.log(firstname + " " + lastname);
 // Endre hp (uten let foran) og skriv den ut.
 // Forventet: 70
 
+let hp = 100;
+hp = hp - 30;
+console.log(hp);
+
 
 // Oppgave 3 (grunnleggende)
 // Lag const PI = 3.14159. Prøv deretter å skrive PI = 3; og kjør fila.
