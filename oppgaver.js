@@ -139,7 +139,6 @@ if (temp < 0) {
 // Test også: endre klokka til 8 og kjør på nytt. Da skal det stå God morgen.
 
 const klokka = 21;
-
 if (klokka < 10) {
     console.log("God morgen");
 } else if (klokka < 18) {
@@ -157,7 +156,6 @@ if (klokka < 10) {
 
 const skydekke = 20;
 const time = 22;
-
 if (skydekke < 30 && time >= 18) {
     console.log("Gode sjanser for nordlys");
 } else {
@@ -171,7 +169,6 @@ if (skydekke < 30 && time >= 18) {
 // Forventet: alder 8 -> 50 kr,  alder 30 -> 100 kr,  alder 70 -> 60 kr
 
 let alder = 30;
-
 if (alder < 12) {
     console.log("50 kr");
 } else if (alder >= 67) {
@@ -214,6 +211,11 @@ console.log("Liftoff!");
 // Tips: let sum = 0; før løkka.
 // Forventet: 5050
 
+let sum = 0;    
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+console.log(sum);
 
 // Oppgave 18 (middels)
 // Lag let bossHp = 100. Hvert slag tar 15 hp. Bruk en while-løkke og tell
