@@ -155,6 +155,15 @@ if (klokka < 10) {
 // Forventet: Gode sjanser for nordlys
 // Test også: skydekke = 80 skal gi: Dårlige sjanser i kveld
 
+const skydekke = 20;
+const time = 22;
+
+if (skydekke < 30 && time >= 18) {
+    console.log("Gode sjanser for nordlys");
+} else {
+    console.log("Dårlige sjanser i kveld");
+}
+
 
 // Oppgave 14 (avansert)
 // Billett til Fjellheisen: barn under 12 betaler 50 kr, 67 år og eldre betaler 60 kr,
