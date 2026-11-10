@@ -59,6 +59,11 @@ console.log("Pris med moms: " + (pris + pris * MOMS) + " kr");
 // høyden på Fløya (671), temperaturen i Tromsø nå (-4).
 // Forventet: ingenting i konsollen
 
+const maksSpillere = 16;
+let liv = 3;
+const floyaHoyde = 671;
+let tromsoTemp = -4;
+
 
 // ---------------- TEKST OG TALL ----------------
 // Tekst (string) står i anførselstegn: "Kari". Tall (number) står uten: 17.
