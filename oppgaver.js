@@ -120,6 +120,11 @@ console.log(17 % 4 + " til overs");
 // const temp = -8. Skriv ut "Kuldegrader" hvis temp er under 0.
 // Forventet: Kuldegrader
 
+const temp = -8;
+if (temp < 0) {
+  console.log("Kuldegrader");
+}
+
 
 // Oppgave 11 (grunnleggende)
 // Bruk hp fra oppgave 2. Hvis hp er 0 eller mindre: "Game over".
