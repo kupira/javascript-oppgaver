@@ -48,6 +48,10 @@ const PI = 3.14159;
 // Skriv ut prisen med moms.
 // Forventet: Pris med moms: 250 kr
 
+const MOMS = 0.25;
+let pris = 200;
+console.log("Pris med moms: " + (pris + pris * MOMS) + " kr");
+
 
 // Oppgave 5 (avansert)
 // Lag disse som const eller let. Begrunn valgene i oppgavearket:
