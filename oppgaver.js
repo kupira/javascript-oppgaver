@@ -106,6 +106,9 @@ console.log(Number("5") + 5);
 // Forventet: 4 lag
 //            1 til overs
 
+console.log(Math.floor(17 / 4) + " lag");
+console.log(17 % 4 + " til overs");
+
 
 // ---------------- VALG MED IF ----------------
 // if kjører koden bare når betingelsen er sann. else kjører ellers.
