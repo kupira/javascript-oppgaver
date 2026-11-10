@@ -170,6 +170,15 @@ if (skydekke < 30 && time >= 18) {
 // alle andre betaler 100 kr. Lag let alder og skriv ut prisen.
 // Forventet: alder 8 -> 50 kr,  alder 30 -> 100 kr,  alder 70 -> 60 kr
 
+let alder = 30;
+
+if (alder < 12) {
+    console.log("50 kr");
+} else if (alder >= 67) {
+    console.log("60 kr");
+} else {
+    console.log("100 kr");
+}
 
 // ---------------- LØKKER ----------------
 // En løkke gjentar kode.
