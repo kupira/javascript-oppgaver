@@ -238,7 +238,17 @@ console.log(slag + " slag");
 // Tips: tall % 3 === 0 betyr delelig med 3.
 // Forventet: 1, 2, Nord, 4, Lys, Nord, 7, 8, Nord, Lys, 11, Nord, 13, 14, Nordlys
 
-// TODO 
+for (let i = 1; i <= 15; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("Nordlys");
+    } else if (i % 3 === 0) {
+        console.log("Nord");
+    } else if (i % 5 === 0) {
+        console.log("Lys");
+    } else {
+        console.log(i);
+    }
+}
 
 // ---------------- ARRAYS ----------------
 // En array er en liste: const fag = ["Utvikling", "Driftstøtte"];
