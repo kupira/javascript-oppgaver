@@ -71,7 +71,7 @@ Korte svar er greit.
 **12. Hvilken feilmelding fikk du oftest? Hva betydde den?**
 
 > `SyntaxError`.  
-> Det betyr at koden har en skrivefeil (for eksempel manglende `}` eller feil plassering av `else`).
+> Det betyr at koden har en skrivefeil 
 
 **13. Hva gjorde du når du sto fast? Hva vil du gjøre annerledes neste gang?**
 
