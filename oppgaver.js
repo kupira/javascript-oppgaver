@@ -319,3 +319,5 @@ console.log(new_inventory);
 // inventory er const, men push virker likevel. Hvorfor?
 // Skriv svaret i oppgavearket.
 // Forventet: ingenting i konsollen
+
+// Fordi const betyr at selve referansen til arrayen ikke kan endres, men innholdet i arrayen kan endres. 
