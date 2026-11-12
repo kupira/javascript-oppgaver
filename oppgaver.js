@@ -217,6 +217,7 @@ for (let i = 1; i <= 100; i++) {
 }
 console.log(sum);
 
+
 // Oppgave 18 (middels)
 // Lag let bossHp = 100. Hvert slag tar 15 hp. Bruk en while-løkke og tell
 // hvor mange slag som trengs før bossHp er 0 eller mindre.
@@ -229,6 +230,7 @@ while (bossHp > 0) {
     slag++;
 }
 console.log(slag + " slag");
+
 
 // Oppgave 19 (avansert)
 // Skriv ut tallene 1 til 15. Er tallet delelig med 3, skriv "Nord" i stedet.
@@ -256,6 +258,7 @@ const byer = ["Tromsø", "Bodø", "Alta", "Harstad", "Narvik"];
 console.log(byer[0]);
 console.log(byer.length);
 
+
 // Oppgave 21 (grunnleggende)
 // Legg til "Hammerfest" med push, og skriv ut den siste byen og det nye antallet.
 // Tips: siste element er byer[byer.length - 1]
@@ -264,6 +267,7 @@ console.log(byer.length);
 
 byer.push("Hammerfest");
 console.log(byer[byer.length - 1]);
+
 
 // Oppgave 22 (middels)
 // Skriv ut alle byene med en for-løkke.
@@ -278,6 +282,16 @@ for (let i = 0; i < byer.length; i++) {
 // const temperaturer = [-4, -6, -2, 1, -8, -11, -3];
 // Tell hvor mange dager det var kaldere enn -5. Bruk for og if.
 // Forventet: 3
+
+const temperaturer = [-4, -6, -2, 1, -8, -11, -3];
+
+let counter = 0;
+for (let i = 0; i < temperaturer.length; i++) {
+    if (temperaturer[i] < -5) {
+        counter++;
+    }
+}
+console.log(counter);
 
 
 // Oppgave 24 (avansert)
