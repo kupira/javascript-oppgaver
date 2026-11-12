@@ -94,9 +94,9 @@ console.log(`${firstname} har ${hp} hp`);
 //            55
 //            10
 
-console.log(5 + 5);
-console.log("5" + 5);
-console.log(Number("5") + 5);
+console.log(5 + 5);             // 10
+console.log("5" + 5);           // 55, fordi "5" er en string, så + blir tekstsammenkobling
+console.log(Number("5") + 5);   // 10, fordi Number("5") konverterer stringen til et tall
 
 
 // Oppgave 9 (middels)
@@ -249,6 +249,7 @@ for (let i = 1; i <= 15; i++) {
         console.log(i);
     }
 }
+
 
 // ---------------- ARRAYS ----------------
 // En array er en liste: const fag = ["Utvikling", "Driftstøtte"];
