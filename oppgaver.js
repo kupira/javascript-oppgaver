@@ -131,6 +131,11 @@ if (temp < 0) {
 // Ellers: "Spillet fortsetter".
 // Forventet: Spillet fortsetter
 
+if (hp <= 0) {
+    console.log("Game over");
+} else {
+    console.log("Spillet fortsetter");
+}
 
 // Oppgave 12 (middels)
 // const klokka = 21. Bruk if, else if og else:
