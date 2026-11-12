@@ -20,8 +20,8 @@
 // Skriv ut begge på samme linje.
 // Forventet: Ola Nordmann  (men ditt navn)
 
-let firstname = "Ola";
-let lastname = "Nordmann";
+let firstname = "Mitt";
+let lastname = "Navn";
 console.log(firstname + " " + lastname);
 
 
