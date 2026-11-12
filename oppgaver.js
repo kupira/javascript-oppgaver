@@ -222,6 +222,13 @@ console.log(sum);
 // hvor mange slag som trengs før bossHp er 0 eller mindre.
 // Forventet: 7 slag
 
+let bossHp = 100;
+let slag = 0;
+while (bossHp > 0) {
+    bossHp -= 15;
+    slag++;
+}
+console.log(slag + " slag");
 
 // Oppgave 19 (avansert)
 // Skriv ut tallene 1 til 15. Er tallet delelig med 3, skriv "Nord" i stedet.
@@ -229,6 +236,7 @@ console.log(sum);
 // Tips: tall % 3 === 0 betyr delelig med 3.
 // Forventet: 1, 2, Nord, 4, Lys, Nord, 7, 8, Nord, Lys, 11, Nord, 13, 14, Nordlys
 
+// TODO 
 
 // ---------------- ARRAYS ----------------
 // En array er en liste: const fag = ["Utvikling", "Driftstøtte"];
@@ -238,14 +246,15 @@ console.log(sum);
 //   fag.length      gir anallet variabler i array
 //   for (let i = 0; i < fag.length; i++) { console.log(fag[i]); }
 
-
-
 // Oppgave 20 (grunnleggende)
 // const byer = ["Tromsø", "Bodø", "Alta", "Harstad", "Narvik"];
 // Skriv ut den første byen og hvor mange byer det er.
 // Forventet: Tromsø
 //            5
-
+    
+const byer = ["Tromsø", "Bodø", "Alta", "Harstad", "Narvik"];
+console.log(byer[0]);
+console.log(byer.length);
 
 // Oppgave 21 (grunnleggende)
 // Legg til "Hammerfest" med push, og skriv ut den siste byen og det nye antallet.
@@ -253,10 +262,16 @@ console.log(sum);
 // Forventet: Hammerfest
 //            6
 
+byer.push("Hammerfest");
+console.log(byer[byer.length - 1]);
 
 // Oppgave 22 (middels)
 // Skriv ut alle byene med en for-løkke.
 // Forventet: Tromsø, Bodø, Alta, Harstad, Narvik, Hammerfest (én per linje)
+
+for (let i = 0; i < byer.length; i++) {
+    console.log(byer[i]);
+}
 
 
 // Oppgave 23 (middels)
