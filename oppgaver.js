@@ -301,6 +301,19 @@ console.log(counter);
 // Forventet: 3
 //            [ 'sverd', 'skjold', 'fiskestang' ]
 
+const inventory = ["sverd", "drikk", "skjold", "drikk", "fiskestang", "drikk"];
+let new_inventory = [];
+counter = 0;
+for (let i = 0; i < inventory.length; i++) {
+    if (inventory[i] == "drikk") {
+        counter++;
+    }else {
+        new_inventory.push(inventory[i]);
+    }
+}
+console.log(counter);
+console.log(new_inventory);
+
 
 // Oppgave 25 (avansert)
 // inventory er const, men push virker likevel. Hvorfor?
